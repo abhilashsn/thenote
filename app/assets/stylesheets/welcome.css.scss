@@ -1,10 +1,10 @@
 #banner {
-	background-image: url(image_path("welcome_banner_image.jpg"));
+	background-image: url(image_path("1949754.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
-	min-height: 500px;
+	height: 300px;
 	display: table;
 	.banner_content {
 		display: table-cell;
@@ -34,19 +34,20 @@
 	}
 	.name {
 		@include bold_font;
-		color: $dark_gray;
+		color: skyblue;
 		margin: 0;
 		font-size: .85rem;
+        font-style: italic;	
 	}
 }
 
 #callouts {
-	background-image: url(image_path("callout_background.jpg"));
+	background-image: url(image_path("1970212.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
-	min-height: 400px;
+	height: 300px;
 	display: table;
 	.callout_inner {
 		display: table-cell;
@@ -70,16 +71,29 @@
 
 #bottom_cta {
 	text-align: center;
-	padding: 7.5rem 0;
+	padding: 5.5rem;
 	h2 {
-		@include bold_font;
-		color: $dark_gray;
+		color: lavender;
 		font-size: 3rem;
 		margin: 0;
 	}
 	p {
 			font-size: 1.25rem;
+			color: #7FFFD4;
 			margin: 0 0 2.5rem 0;
 			color: #a7a8a8;
 		}
+
+
+h5 {
+		color: pink;
+		font-size: 2rem;
+		margin: 0;
+	}
+
+
+
+
+
+
 }
