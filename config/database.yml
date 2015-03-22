@@ -22,4 +22,5 @@ test:
   database: my_database_test
 production:
   <<: *default
+  encoding: unicode
   database: my_database_production
